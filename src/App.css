@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.jokes-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.single-joke {
+  width: 600px;
+  height: auto;
+}
+
+.joke {
+  background-color: #61dafb;
+  border-radius: 10px;
+  font-size: 24px;
+  font-family: sans-serif;
+  padding: 15px;
+}
+
+.setup-delivery {
+  background-color: lightseagreen;
+  border-radius: 10px;
+  font-size: 24px;
+  font-family: sans-serif;
+  padding: 15px;
+}
