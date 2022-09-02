@@ -1,10 +1,10 @@
 import React from "react";
 
-const Joke = ({ joke, setup, delivery }) => {
+const Joke = ({ joke, setup, delivery, type }) => {
   return (
     <div>
       <div className="single-joke">
-        {joke ? (
+        {type === "single" ? (
           <div className="joke">{joke}</div>
         ) : (
           <div className="setup-delivery">

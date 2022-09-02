@@ -24,6 +24,7 @@ const Jokes = () => {
           joke={joke.joke}
           setup={joke.setup}
           delivery={joke.delivery}
+          type={joke.type}
         />
       ))}
     </div>
